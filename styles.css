@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -77,14 +77,14 @@ body {
 }
 
 .tabs {
-    width: 200px;
+    width: 100%;
     padding: 100px;
 }
 .tabs button {
     background-color: #333;
     color: white;
     border: none;
-    padding: 20px 40px;
+    padding: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -184,6 +184,9 @@ body {
     text-align: center;
     padding: 1rem;
 }
+.footers {
+    background: url('img/image.psd (2).png') no-repeat center center/cover;
+}
 
 .social-links {
     display: flex;
@@ -195,4 +198,57 @@ body {
     color: white;
     text-decoration: none;
     margin: 0 0.5rem;
+}
+
+.hero-section {
+    background-image: url('img/image.psd (2) (1).png'); /* Replace with your image path */
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-section .content {
+    background: rgba(0, 0, 0, 0.5); /* Optional: to darken the background image */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.download-button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Mobile: width < 740px */
+@media only screen and  (max-width: 46.1875em) {
+
+}
+/* Table:width => 740px and with < 1024px */
+@media only screen and  (max-width: 46.25em) and (max-width: 63.9375em){
 }
